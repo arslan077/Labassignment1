@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OnResume Calls()"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/OnCreateCalls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="40dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/OnStartCalls"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/OnStartCalls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="213dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OnCreateCalls" />
+
+    <TextView
+        android:id="@+id/OnResumeCalls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="211dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OnStartCalls" />
+
+    <TextView
+        android:id="@+id/OnRestartCalls"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="211dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OnResumeCalls" />
+
+    <Button
+        android:id="@+id/gotosecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="186dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OnRestartCalls" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OnCreate Calls()"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On Start Calls()"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On Restart Calls()"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="185dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
